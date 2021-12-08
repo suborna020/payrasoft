@@ -58,7 +58,7 @@ function Form() {
                     onClick={() => {
                         // submit activity
                         if (page === FormTitles.length - 1) {
-                            alert(JSON.stringify(formData));
+                            alert(JSON.stringify(formData)); // eslint-disable-line no-alert
                             setFormData({
                                 name: '',
                                 email: '',
