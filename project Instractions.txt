@@ -1,0 +1,44 @@
+1.install node
+2.install npm
+3.project create @@@@
+npx create-react-app <projectname>
+6.Run project:
+cd <projectname>
+npm run build
+then
+npm start
+
+@packege--------------::
+@sort install: >package.json>script> copy pest>
+scripts: {
+    "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+}
+@or 
+scripts: {
+    "lint": "npm install --save-dev --save-exact prettier && npm install --save-dev  babel-eslint && npm install --save-dev eslint-config-prettier eslint-plugin-prettier"
+
+}
+then 'npm run lint'
+@npx install-peerdeps --dev eslint-config-airbnb ------dont work . solution:
+
+npm install eslint@^7.25.0 eslint-config-airbnb@^18.2.1 eslint-plugin-jsx-a11y@^6.4.1 eslint-plugin-import@^2.22.1 eslint-plugin-react@^7.23.2 eslint-plugin-react-hooks@^4.2.0 --save-dev
+
+Axios install:: npm install axios
+npm install bootstrap axios popper.js react-redux react-router-dom redux redux-api-middleware redux-thunk
+@structure:: 
+cd src/
+mkdir components containers actions reducers
+@snipet
+react snipet: rfce+tab
+rce : for class component
+rfce : for functional component
+rconst: for constructor call
+
+React Life cycle::
+1.Mounting
+2.updating
+3.unmounting
+4.error handling
+//----------------
+7. react route install:: npm install  react-router-dom@5 [5 is a latest stable version]
+instruction : https://www.freecodecamp.org/news/react-router-in-5-minutes/
